@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1efef;
+}
+main {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+div h3 {
+  font-size: 26;
+  padding: 10px 0;
+}
+div h3 p{
+    top: auto;
+}
+div{
+  font-size: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  padding: 2em;
+}
+img{
+  
+}
+.sedan {
+  background-color: #e38826;
+  border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+.suv {
+  background-color: rgba(4, 54, 25, 0.534);
+}
+.luxury {
+  background-color: darkcyan;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+}
+div button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 4em;
+    
+}
